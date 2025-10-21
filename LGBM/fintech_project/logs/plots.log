@@ -1,0 +1,6 @@
+2025-10-19 00:11:13,832 - INFO - plots - Saved feature importance to D:\jinke\fintech_project\outputs\stage2_lgb_feature_importance.png
+2025-10-19 00:11:13,832 - INFO - plots - Computing SHAP values (may take time)...
+2025-10-19 00:11:23,332 - INFO - plots - Saved SHAP summary to D:\jinke\fintech_project\outputs\stage2_lgb_shap_summary.png
+2025-10-20 18:52:24,421 - INFO - plots - Saved feature importance to D:\jinke\fintech_project\outputs\stage2_lgb_feature_importance.png
+2025-10-20 18:52:24,422 - INFO - plots - Computing SHAP values (may take time)...
+2025-10-20 18:52:32,967 - INFO - plots - Saved SHAP summary to D:\jinke\fintech_project\outputs\stage2_lgb_shap_summary.png
