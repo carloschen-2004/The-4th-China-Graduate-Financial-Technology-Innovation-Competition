@@ -1,4 +1,4 @@
-Dual-Tower Contrastive Recommendation v4_fix4
+Dual-Tower Contrastive Recommendation v4_fix5
 --------------------------------------------------
 
 fix5：
@@ -20,3 +20,8 @@ fix5：
 4. 推荐:
    python recommend_user_profiles.py --data_dir data --model_dir outputs --out_csv outputs/recommended_user_profiles.csv --k 200
 
+输出结果在outputs里
+
+pth文件是模型
+
+xlsx是推荐结果
