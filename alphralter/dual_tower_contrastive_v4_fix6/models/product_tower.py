@@ -1,5 +1,4 @@
 import torch.nn as nn
-
 class ProductTower(nn.Module):
     def __init__(self, input_dim, embed_dim=64):
         super().__init__()

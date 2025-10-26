@@ -1,9 +1,7 @@
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
+import torch, torch.nn as nn, torch.nn.functional as F
 
 class DualTowerContrastive(nn.Module):
-    def __init__(self, user_tower, prod_tower, temperature=0.5, eps=1e-8):
+    def __init__(self, user_tower, prod_tower, temperature=1.0, eps=1e-8):
         super().__init__()
         self.user_tower = user_tower
         self.prod_tower = prod_tower

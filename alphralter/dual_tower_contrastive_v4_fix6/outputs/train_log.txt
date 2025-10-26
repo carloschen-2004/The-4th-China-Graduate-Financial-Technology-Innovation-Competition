@@ -1,0 +1,30 @@
+[TRAIN] Starting category D
+[CHECK] Category D: matched events 193977 / 338939 (57.23%)
+[INFO] D user_dim=2 prod_dim=3 samples=193977
+D epoch 1 avg loss: 4.153381
+D epoch 2 avg loss: 4.152765
+[TRAIN] Saved outputs\model_D.pth time_elapsed=89.7s
+[TRAIN] Starting category C
+[CHECK] Category C: matched events 15889 / 338939 (4.69%)
+[INFO] C user_dim=2 prod_dim=4 samples=15889
+C epoch 1 avg loss: 4.006193
+C epoch 2 avg loss: 3.962080
+[TRAIN] Saved outputs\model_C.pth time_elapsed=7.4s
+[TRAIN] Starting category A
+[CHECK] Category A: matched events 4575 / 338939 (1.35%)
+[INFO] A user_dim=2 prod_dim=4 samples=4575
+A epoch 1 avg loss: 4.158814
+A epoch 2 avg loss: 4.157483
+[TRAIN] Saved outputs\model_A.pth time_elapsed=2.2s
+[TRAIN] Starting category N
+[CHECK] Category N: matched events 21499 / 338939 (6.34%)
+[INFO] N user_dim=2 prod_dim=2 samples=21499
+N epoch 1 avg loss: 4.158883
+N epoch 2 avg loss: 4.158883
+[TRAIN] Saved outputs\model_N.pth time_elapsed=9.7s
+[TRAIN] Starting category P
+[CHECK] Category P: matched events 9223 / 338939 (2.72%)
+[INFO] P user_dim=2 prod_dim=2 samples=9223
+P epoch 1 avg loss: 4.149841
+P epoch 2 avg loss: 4.144241
+[TRAIN] Saved outputs\model_P.pth time_elapsed=4.3s
