@@ -1,0 +1,25 @@
+[TRAIN] Starting category D
+[CHECK] Category D: matched events 224727 / 338939 (66.30%)
+D epoch 1 avg loss: 3.874391
+D epoch 2 avg loss: 3.869239
+[TRAIN] Saved F:\study\jinke\jk\outputs\model_D.pth time_elapsed=5949.9s
+[TRAIN] Starting category C
+[CHECK] Category C: matched events 23492 / 338939 (6.93%)
+C epoch 1 avg loss: 3.839193
+C epoch 2 avg loss: 3.795687
+[TRAIN] Saved F:\study\jinke\jk\outputs\model_C.pth time_elapsed=940.0s
+[TRAIN] Starting category A
+[CHECK] Category A: matched events 4575 / 338939 (1.35%)
+A epoch 1 avg loss: 4.151254
+A epoch 2 avg loss: 4.144472
+[TRAIN] Saved F:\study\jinke\jk\outputs\model_A.pth time_elapsed=49.6s
+[TRAIN] Starting category N
+[CHECK] Category N: matched events 21499 / 338939 (6.34%)
+N epoch 1 avg loss: 4.158874
+N epoch 2 avg loss: 4.158786
+[TRAIN] Saved F:\study\jinke\jk\outputs\model_N.pth time_elapsed=112.5s
+[TRAIN] Starting category P
+[CHECK] Category P: matched events 9223 / 338939 (2.72%)
+P epoch 1 avg loss: 4.152727
+P epoch 2 avg loss: 4.149579
+[TRAIN] Saved F:\study\jinke\jk\outputs\model_P.pth time_elapsed=52.9s
