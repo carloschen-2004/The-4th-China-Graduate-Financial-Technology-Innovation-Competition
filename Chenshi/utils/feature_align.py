@@ -2,9 +2,9 @@ import os, pandas as pd
 
 def align_product_features(prod_df, min_numeric_cols=4):
     out = {}
-    sheets = prod_df['__sheet__'].unique() if '__sheet__' in prod_df.columns else ['ALL']
+    sheets = prod_df['__sheet__'].unique()
     for s in sheets:
-        sub = prod_df[prod_df.get('__sheet__','ALL')==s].copy()
+        sub = prod_df[prod_df['__sheet__'] == s].copy()
         drop_cols = ['prod_id','__sheet__','new_flag']
         cols = [c for c in sub.columns if c not in drop_cols]
         numeric_cols = [c for c in cols if pd.api.types.is_numeric_dtype(sub[c])]
@@ -13,14 +13,14 @@ def align_product_features(prod_df, min_numeric_cols=4):
             for c in cols:
                 if c not in numeric_cols:
                     try:
-                        sub[c+'_cat'] = pd.factorize(sub[c].astype(str))[0]
-                        numeric_cols.append(c+'_cat')
+                        sub[c + '_cat'] = pd.factorize(sub[c].astype(str))[0]
+                        numeric_cols.append(c + '_cat')
                     except:
                         continue
                 if len(numeric_cols) >= min_numeric_cols:
                     break
         if len(numeric_cols) == 0:
-            sub['prod_hash'] = sub['prod_id'].astype(str).apply(lambda x: abs(hash(x))%10000)
+            sub['prod_hash'] = sub['prod_id'].astype(str).apply(lambda x: abs(hash(x)) % 10000)
             numeric_cols = ['prod_hash']
         for c in numeric_cols:
             sub[c] = pd.to_numeric(sub[c], errors='coerce').fillna(0).astype(float)
