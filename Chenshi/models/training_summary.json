@@ -25,43 +25,43 @@
   },
   "results": {
     "A": {
-      "num_products": 192,
-      "best_train_acc": 9.344262295081966,
-      "best_val_acc": 12.131147540983607,
-      "final_train_acc": 9.344262295081966,
-      "final_val_acc": 12.131147540983607,
+      "num_products": 8,
+      "best_train_acc": 39.72677595628415,
+      "best_val_acc": 38.5792349726776,
+      "final_train_acc": 39.72677595628415,
+      "final_val_acc": 38.46994535519126,
       "model_path": "models/transformer_fm_product_classifier_A.pth"
     },
     "C": {
-      "num_products": 45,
-      "best_train_acc": 83.9256209919068,
-      "best_val_acc": 84.4758064516129,
-      "final_train_acc": 83.9256209919068,
-      "final_val_acc": 84.4758064516129,
+      "num_products": 31,
+      "best_train_acc": 78.33319331261026,
+      "best_val_acc": 79.58109318996416,
+      "final_train_acc": 78.33319331261026,
+      "final_val_acc": 79.23387096774194,
       "model_path": "models/transformer_fm_product_classifier_C.pth"
     },
     "D": {
-      "num_products": 14,
-      "best_train_acc": 98.70593968271157,
-      "best_val_acc": 99.48415042331168,
-      "final_train_acc": 98.70593968271157,
-      "final_val_acc": 98.29297105729475,
+      "num_products": 12,
+      "best_train_acc": 87.87452192617604,
+      "best_val_acc": 87.37546761173459,
+      "final_train_acc": 87.87452192617604,
+      "final_val_acc": 87.37546761173459,
       "model_path": "models/transformer_fm_product_classifier_D.pth"
     },
     "N": {
-      "num_products": 5,
-      "best_train_acc": 68.60289964225193,
-      "best_val_acc": 68.8570890604406,
-      "final_train_acc": 68.60289964225193,
-      "final_val_acc": 68.8570890604406,
+      "num_products": 3,
+      "best_train_acc": 98.24421012991904,
+      "best_val_acc": 98.21125964978347,
+      "final_train_acc": 98.24421012991904,
+      "final_val_acc": 98.21125964978347,
       "model_path": "models/transformer_fm_product_classifier_N.pth"
     },
     "P": {
       "num_products": 3,
-      "best_train_acc": 98.88858769314177,
-      "best_val_acc": 99.24119241192412,
-      "final_train_acc": 98.88858769314177,
-      "final_val_acc": 99.24119241192412,
+      "best_train_acc": 95.33748983464353,
+      "best_val_acc": 95.01355013550136,
+      "final_train_acc": 95.33748983464353,
+      "final_val_acc": 95.01355013550136,
       "model_path": "models/transformer_fm_product_classifier_P.pth"
     }
   }
