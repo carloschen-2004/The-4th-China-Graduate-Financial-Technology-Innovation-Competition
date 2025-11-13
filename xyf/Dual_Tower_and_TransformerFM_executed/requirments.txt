@@ -1,7 +1,0 @@
-torch==2.71
-pandas==2.3.0
-numpy==2.3.0
-tqdm==4.67.1
-scikit-learn==1.7.0
-traceback==
-matplotlib==3.10.5
